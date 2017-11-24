@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link type="text/css" href="datum.css" rel="stylesheet">
+    <script src="datum.js"></script>
+
+  </head>
+
+  <body onload="time()">
+      <div id="container" class="table">
+          <div> Current date: <span id="currentDate"></span>
+          Current time: <span id="currentTime"></span></div>
+      </div>
+      <div id="birthDate" class="table">
+          <div> <span class="chooseDate">Date of birth:</span> <input class="chooseDate" type="date" id="birth" onchange="changedBirthDate()"><span id="error"></span></div>
+      </div>
+      <div class="table">
+          <div> Your age: <span id="age"></span></div>
+      </div>
+      <div class="table">
+          <div> Your was born in: <span id="weekbirthday"></span></div>
+      </div>
+      <div class="table">
+          <div> Zodiac sign: <span id="zodiacSign"></span></div>
+      </div>
+      <!--<div class="table">
+          <div> First name: <input type="text" id="fname" size="10px"></div>
+      </div>
+      <div class="table">
+          <div> The nearest name day: <span id="nameday"></span></div>
+      </div>-->
+      <div id="celebrating1">
+          <div><img src="celebrate.png"><br>Happy birthday!</div>
+      </div>
+      <div id="celebrating2">
+          <div><img src="celebrate.png"><br>Happy birthday!</div>
+      </div>
+      
+  </body>
+</html>

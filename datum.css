@@ -1,0 +1,55 @@
+.table {
+    margin: auto;
+    border: 1px solid;
+    width: 350px;
+    height: 20px;
+    font-size: 15px;
+    background-color: cadetblue;
+    color: aliceblue;
+    font-family: Arial;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#birthDate {
+    
+}
+
+.chooseDate {
+    text-align: center;
+}
+
+#error {
+    color: red;
+    font-size: 10px;
+    text-transform: capitalize;
+    float: right;
+    text-shadow:initial;
+    width: 50px;
+    text-align: center;
+    margin-left: -100px;
+}
+
+body {
+    background-image: url(background_image.png);
+    padding: 20px;
+    background-position: 0 auto;    
+    text-align: center;
+}
+
+#celebrating1 {
+    margin-left: 340px;
+    margin-top: -150px;
+    float: left;
+    font-size: 30px;
+    font-family: fantasy;
+    color: coral;
+}
+
+#celebrating2 {
+    margin-right: 340px;
+    margin-top: -150px;
+    float: right;
+    font-size: 30px;
+    font-family: fantasy;
+    color: coral;
+}
